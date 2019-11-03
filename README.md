@@ -99,11 +99,11 @@ and go to `localhost:1313` in your browser.
 
 ### Building
 
-Run:
+To generate your site in the `public` folder, execute the following:
 
     $ hugo
 
-to generate your site in the `public` folder within the root of your project.
+within the root of your project.
 
 
 
