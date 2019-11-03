@@ -1,6 +1,7 @@
-# Hugo Dev Resums Theme
+# Hugo DevResume Theme
 
-This is a Hugo port of [DevResume](//github.com/xriley/DevResume-Theme) - great looking resume/CV template designed for developers by Xiaoying Riley.
+This is a Hugo port of [DevResume](//github.com/xriley/DevResume-Theme) - great looking resume/CV template 
+designed for developers by Xiaoying Riley.
 
 
 
@@ -81,15 +82,13 @@ Within the root of your Hugo project execute the following:
 
 After successful installation as a minimum you need to take the following steps:
 
-### Copying  files
+### Setup
 
-Go to [`exampleSite`](//github.com/cowboysmall-tools/hugo-dev-resume-theme/tree/master/exampleSite) - copy [`config.toml`](//github.com/cowboysmall-tools/hugo-dev-resume-theme/blob/master/exampleSite/config.toml) to the root of your site.
+Go to [`exampleSite`](//github.com/cowboysmall-tools/hugo-dev-resume-theme/tree/master/exampleSite) and copy 
+[`config.toml`](//github.com/cowboysmall-tools/hugo-dev-resume-theme/blob/master/exampleSite/config.toml) 
+to the root of your site. Open `config.toml` and add your relevant information.
 
-### Configuring
-
-Open `config.toml` and add your relevant information.
-
-### Test your site
+### Viewing
 
 To view your site, execute the following: 
 
@@ -97,7 +96,7 @@ To view your site, execute the following:
 
 and go to `localhost:1313` in your browser.
 
-### Build your site
+### Building
 
 Run:
 
@@ -113,7 +112,8 @@ to generate your site in the `public` folder within the root of your project.
 
 ## Contributing
 
-Post bugs and contributions to the [issue tracker](//github.com/cowboysmall-tools/hugo-dev-resume-theme/issues). Or make a [pull request](//github.com/cowboysmall-tools/hugo-dev-resume-theme/pulls).
+Post bugs and contributions to the [issue tracker](//github.com/cowboysmall-tools/hugo-dev-resume-theme/issues). 
+Or make a [pull request](//github.com/cowboysmall-tools/hugo-dev-resume-theme/pulls).
 
 
 
@@ -123,9 +123,10 @@ Post bugs and contributions to the [issue tracker](//github.com/cowboysmall-tool
 
 ## License
 
-This template is 100% FREE as long as you keep the footer attribution link. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
-
-If you’d like to use this template without the footer attribution link, you can [buy the commercial license](https://themes.3rdwavemedia.com/bootstrap-templates/resume/devresume-free-bootstrap-4-resume-cv-template-for-developers/)
+This template is 100% FREE as long as you keep the footer attribution link. You do not have the rights to resell, 
+sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
+If you’d like to use this template without the footer attribution link, you can buy the 
+[commercial license](https://themes.3rdwavemedia.com/bootstrap-templates/resume/devresume-free-bootstrap-4-resume-cv-template-for-developers/)
 
 You may change the "Ported for..." line by adding the following to the end of `config.toml`
     
