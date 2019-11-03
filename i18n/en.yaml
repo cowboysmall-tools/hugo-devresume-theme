@@ -1,0 +1,16 @@
+- id: awards
+  translation: Awards
+- id: education
+  translation: Education
+- id: experiences
+  translation: Work Experience
+- id: information
+  translation: Information
+- id: interests
+  translation: Interests
+- id: languages
+  translation: Languages
+- id: projects
+  translation: Projects
+- id: skills
+  translation: Skills

@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "DevResume"
+license = "MIT"
+licenselink = "//github.com/cowboysmall-tools/hugo-dev-resume-theme/blob/master/LICENSE"
+description = "DevResume is a free Bootstrap 4 resume/CV template made for software developers."
+homepage = "//github.com/cowboysmall-tools/hugo-dev-resume-theme"
+tags = ["cv", "resume"]
+features = ["responsive"]
+min_version = "0.41"
+
+[author]
+  name = "Jerry Kiely"
+  homepage = "//github.com/cowboysmall"
+
+# If porting an existing theme
+[original]
+  name = "Xiaoying Riley"
+  homepage = "//github.com/xriley"
+  repo = "//github.com/xriley/DevResume-Theme"

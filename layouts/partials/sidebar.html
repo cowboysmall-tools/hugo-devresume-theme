@@ -1,0 +1,24 @@
+                        <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+
+
+                            {{ if .Site.Params.skills.enable }}
+                            {{ partial "skills.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.education.enable }}
+                            {{ partial "education.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.awards.enable }}
+                            {{ partial "awards.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.languages.enable }}
+                            {{ partial "languages.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.interests.enable }}
+                            {{ partial "interests.html" . }}
+                            {{ end }}
+
+                        </aside><!--//resume-aside-->
