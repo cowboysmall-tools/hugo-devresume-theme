@@ -10,7 +10,7 @@ designed for developers by Xiaoying Riley.
 
 ## Screenshot
 
-![DevResume screenshot](https://raw.githubusercontent.com/cowboysmall-tools/hugo-dev-resume-theme/master/images/screenshot.png)
+![DevResume screenshot](https://raw.githubusercontent.com/cowboysmall-tools/hugo-devresume-theme/master/images/screenshot.png)
 
 
 
@@ -37,9 +37,11 @@ designed for developers by Xiaoying Riley.
 
 
 
+<!-- 
 ## Demo
 
-You can see it in action on [Hugo Themes site](http://themes.gohugo.io/theme/hugo-dev-resume-theme/).
+You can see it in action on [Hugo Themes site](http://themes.gohugo.io/theme/hugo-devresume-theme/). 
+-->
 
 
 
@@ -50,10 +52,9 @@ You can see it in action on [Hugo Themes site](http://themes.gohugo.io/theme/hug
 
 - [Installation](#installation)
 - [Getting started](#getting-started)
-    - [Copying files](#copying-files)
-    - [Configuring](#configuring)
-    - [Test your site](#test-your-site)
-    - [Build your site](#build-your-site)
+    - [Setup](#setup)
+    - [Viewing](#viewing)
+    - [Building](#building)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -68,7 +69,7 @@ You can see it in action on [Hugo Themes site](http://themes.gohugo.io/theme/hug
 Within the root of your Hugo project execute the following:
 
     $ cd themes
-    $ git clone https://github.com/cowboysmall-tools/hugo-dev-resume-theme.git
+    $ git clone https://github.com/cowboysmall-tools/hugo-devresume-theme.git
 
 
 
@@ -78,14 +79,14 @@ Within the root of your Hugo project execute the following:
 
 
 
-## Getting started
+## Getting Started
 
 After successful installation as a minimum you need to take the following steps:
 
 ### Setup
 
-Go to [`exampleSite`](//github.com/cowboysmall-tools/hugo-dev-resume-theme/tree/master/exampleSite) and copy 
-[`config.toml`](//github.com/cowboysmall-tools/hugo-dev-resume-theme/blob/master/exampleSite/config.toml) 
+Go to [`exampleSite`](//github.com/cowboysmall-tools/hugo-devresume-theme/tree/master/exampleSite) and copy 
+[`config.toml`](//github.com/cowboysmall-tools/hugo-devresume-theme/blob/master/exampleSite/config.toml) 
 to the root of your site. Open `config.toml` and add your relevant information.
 
 ### Viewing
@@ -112,8 +113,8 @@ to generate your site in the `public` folder within the root of your project.
 
 ## Contributing
 
-Post bugs and contributions to the [issue tracker](//github.com/cowboysmall-tools/hugo-dev-resume-theme/issues). 
-Or make a [pull request](//github.com/cowboysmall-tools/hugo-dev-resume-theme/pulls).
+Post bugs and contributions to the [issue tracker](//github.com/cowboysmall-tools/hugo-devresume-theme/issues). 
+Or make a [pull request](//github.com/cowboysmall-tools/hugo-devresume-theme/pulls).
 
 
 
