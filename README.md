@@ -1,6 +1,6 @@
 # Hugo DevResume Theme
 
-This is a Hugo port of [DevResume](//github.com/xriley/DevResume-Theme) - great looking resume/CV template 
+This is a Hugo port of [DevResume](//github.com/xriley/DevResume-Theme) - a great looking resume/CV template 
 designed for developers by Xiaoying Riley.
 
 
