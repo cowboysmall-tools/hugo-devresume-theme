@@ -3,8 +3,7 @@
 baseURL = "http://example.org/"
 languageCode = "en"
 title = ""
-theme = "devresume"
-# theme = "hugo-devresume-theme"
+theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 
@@ -26,6 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         name = "Simon Doe"
         tagline = "Senior Software Engineer"
+        avatar = "avatar.png"
 
 
 
