@@ -12,9 +12,6 @@
                                         <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
                                         <ul class="resume-list">
                                             {{ range .items }}
-                                            <!--
-                                            <li><span class="resume-degree font-weight-bold">{{ .heading }}</span> {{ with .details }}{{ . | markdownify }}{{ end }}</li>
-                                            -->
                                             <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
                                             {{ end }}
                                         </ul>
