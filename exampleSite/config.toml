@@ -191,13 +191,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "Google"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
         [[params.experience.list.items]]
-        heading = "First"
         details = "Lorem ipsum dolor sit amet, consectetuer."
         [[params.experience.list.items]]
-        heading = "Second"
         details = "Aenean commodo ligula eget dolor."
         [[params.experience.list.items]]
-        heading = "Third"
         details = "Etiam ultricies nisi vel augue."
 
         [[params.experience.list]]
@@ -206,10 +203,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "Apple"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
         [[params.experience.list.items]]
-        heading = "First"
         details = "Lorem ipsum dolor sit amet, consectetuer."
         [[params.experience.list.items]]
-        heading = "Second"
         details = "Aenean commodo ligula eget dolor."
 
         [[params.experience.list]]
