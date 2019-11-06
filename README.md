@@ -37,11 +37,9 @@ designed for developers by Xiaoying Riley.
 
 
 
-<!-- 
 ## Demo
 
 You can see it in action on [Hugo Themes site](http://themes.gohugo.io/theme/hugo-devresume-theme/). 
--->
 
 
 
@@ -63,15 +61,12 @@ You can see it in action on [Hugo Themes site](http://themes.gohugo.io/theme/hug
 
 
 
-
 ## Installation
 
 Within the root of your Hugo project execute the following:
 
     $ cd themes
     $ git clone https://github.com/cowboysmall-tools/hugo-devresume-theme.git
-
-
 
 
 
