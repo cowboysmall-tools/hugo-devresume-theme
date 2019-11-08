@@ -247,19 +247,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
         meta = "Open Source"
-        url = "#"
         tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 
         [[params.projects.list]]
         title = "Project Sed Fringilla"
         meta = "Open Source"
-        url = "#"
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
         [[params.projects.list]]
         title = "Project Praesent"
         meta = "Open Source"
-        url = "#"
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
 
