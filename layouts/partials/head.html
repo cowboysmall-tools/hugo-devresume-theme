@@ -12,5 +12,7 @@
 
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/devresume.css" id="theme-style">
+    <!-- Theme SCSS -->
+    {{ $options := (dict "targetPath" "assets/css/devresume.css") }}
+    {{ $style := resources.Get "scss/devresume.scss" | toCSS $options | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
