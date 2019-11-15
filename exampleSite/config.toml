@@ -27,7 +27,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Simon Doe"
         tagline = "Senior Software Engineer"
         avatar = "avatar.png"
-
+        disable_avatar = false
 
 
 
