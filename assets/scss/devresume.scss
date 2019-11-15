@@ -10,8 +10,8 @@
 
 /*************************** Theme Colours****************************/
 // Define theme colour scheme
-$theme-color-primary: {{ .Site.Params.primary_color | default "#54B689" }};
-$theme-text-color-primary: {{ .Site.Params.text_primary_color | default "#292929" }};
+$theme-color-primary: {{ .Site.Params.primaryColor | default "#54B689" }};
+$theme-text-color-primary: {{ .Site.Params.textPrimaryColor | default "#292929" }};
 $theme-text-color-secondary: lighten($theme-text-color-primary, 15%);
 $theme-text-color-light: lighten($theme-text-color-primary, 40%);
 $theme-border-color:  lighten($theme-text-color-primary, 60%);
