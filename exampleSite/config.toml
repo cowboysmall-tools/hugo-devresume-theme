@@ -39,18 +39,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         location = "New York"
 
         [[params.contact.list]]
-        style = "fas"
-        icon = "fa-phone-square"
+        icon = "fas fa-phone-square"
         url = "tel:#"
         text = "0123 4567 890"
         [[params.contact.list]]
-        style = "fas"
-        icon = "fa-envelope-square"
+        icon = "fas fa-envelope-square"
         url = "mailto:#"
         text = "simon.doe@yourwebsite.com"
         [[params.contact.list]]
-        style = "fas"
-        icon = "fa-globe"
+        icon = "fas fa-globe"
         url = "#"
         text = "www.yourwebsite.com"
 
@@ -294,18 +291,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.social.list]]
-        style = "fab"
-        icon = "fa-github-square"
+        icon = "fab fa-github-square"
         url = "//github.com/username"
         title = "username"
         [[params.social.list]]
-        style = "fab"
-        icon = "fa-linkedin"
+        icon = "fab fa-linkedin"
         url = "//linkedin.com/in/username"
         title = "username"
         [[params.social.list]]
-        style = "fab"
-        icon = "fa-twitter-square"
+        icon = "fab fa-twitter-square"
         url = "//twitter.com/username"
         title = "@username"
 
