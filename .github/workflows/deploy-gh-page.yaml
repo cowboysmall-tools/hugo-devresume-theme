@@ -1,0 +1,39 @@
+name: Github pages CICD
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    env:
+      theme: hugo-devresume-theme
+      git-user: tecnobutrul
+      git-mail: d.delrio.figueira@gmail.com
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Update themes
+        run: git submodule update --init --recursive
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.78.1"
+
+      - name: Build
+        run: hugo --minify -t ${{ env.theme }}
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PAGE_TOKEN }}
+          external_repository: ${{ env.git-user }}/${{ env.git-user }}.github.io
+          publish_dir: ./public
+          #   keep_files: true
+          user_name: ${{ env.git-user }}
+          user_email: ${{ env.git-mail }}
+          publish_branch: master
