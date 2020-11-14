@@ -1,0 +1,8 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:tecnobutrul/tecnobutrul.github.io.git
+	branch = main
+[submodule "devresume"]
+	path = themes/hugo-devresume-theme
+	url = https://github.com/cowboysmall-tools/hugo-devresume-theme.git
+	branch = master
