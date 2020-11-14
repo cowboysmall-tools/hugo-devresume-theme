@@ -1,0 +1,16 @@
+
+                            <section class="skills-section py-3">
+
+                                <h3 class="text-uppercase resume-section-heading mb-4">{{ i18n "aptitudes" }}</h3>
+
+                                {{ range .Site.Params.aptitudes.list }}
+                                <div class="item">
+                                        {{ range .items }}
+                                    <ul class="list-unstyled resume-aptitudes-list">
+                                        <li class="mb-2">{{ with .details }}{{ . | markdownify }}{{ end }}</li>
+                                        {{ end }}
+                                    </ul>
+                                </div><!--//item-->
+                                {{ end }}
+
+                            </section><!--//aptitudes-section-->
