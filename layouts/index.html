@@ -36,6 +36,10 @@
                             {{ partial "experience.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.skills.enable }}
+                            {{ partial "skills.html" . }}
+                            {{ end }}
+
                             {{ if .Site.Params.projects.enable }}
                             {{ partial "projects.html" . }}
                             {{ end }}

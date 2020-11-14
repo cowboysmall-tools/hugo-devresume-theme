@@ -1,0 +1,159 @@
+# age settings
+
+baseURL = "https://tecnobutrul.github.io/"
+languageCode = "en"
+title = "Daniel Del Río Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "Daniel Del Río"
+    description = "Daniel del Río Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Daniel del Río Figueira"
+        tagline = "Systems Administrator"
+        #avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Santiago de Compostela"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:d.delrio.figueira@gmail.com"
+        text = "d.delrio.figueira@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "http://ddelrio.ga"
+        text = "ddelrio.ga"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        [[params.skills.list.items]]
+        details = "Kubernetes"
+        [[params.skills.list.items]]
+        details = "Python/Bash"
+        [[params.skills.list.items]]
+        details = "Grafana"
+        [[params.skills.list.items]]
+        details = "Prometheus"
+        [[params.skills.list.items]]
+        details = "GCP/Azure"
+        [[params.skills.list.items]]
+        details = "Helm"
+        [[params.skills.list.items]]
+        details = "Terraform"
+        [[params.skills.list.items]]
+        details = "Docker"
+
+    [params.aptitudes]
+        enable = true
+        [[params.aptitudes.list]]
+        [[params.aptitudes.list.items]]
+        details = "Effective communication"
+        [[params.aptitudes.list.items]]
+        details = "Team player"
+        [[params.aptitudes.list.items]]
+        details = "Adaptable"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Certificate of Higher Education in Systems Admistration"
+        university = "Instituto San Clemente"
+        dates = "2017 - 2019"
+
+    [params.awards]
+        enable = false
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "B1"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Galician"
+        level = "Native"
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Travelling"
+        [[params.interests.list]]
+        name = "Tennis"
+        [[params.interests.list]]
+        name = "Videogames"
+
+    [params.summary]
+        enable = true
+        text = "Motivated systems administrator focused on automation and cloud environments. Experienced on build automate Infraestructure and managing, deploying and monitoring high availability applications. Capable to code scripts to automate task, consuming APIs. Proven ability to stablish and mantain excellent relationships with clients as well as with coworkers."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Cloud Systems Administrator"
+        dates = "Jul 2019 - Present"
+        company = "Prefapp Cloud Consulting"
+        details = "Prefapp develops, designs and mantains cloud infraestructure for other bussiness. They adapt cloud environments to clients needs, bulding ad-hoc tools to agile their development."
+        [[params.experience.list.items]]
+        details = "Kubernetes cluster management and applications delivery applying GitOps"
+        [[params.experience.list.items]]
+        details = "Develop and deploy Infraestructure As Code with Terraform."
+        [[params.experience.list.items]]
+        details = "Develop and mantain Helm chart for multiple applications."
+        [[params.experience.list.items]]
+        details = "Monitoring Kubernetes clusters with Prometheus and Grafana."
+        [[params.experience.list.items]]
+        details = "Create ad-hoc Python applications to automate deploys."
+        [[params.experience.list.items]]
+        details = "Containerize applications with Docker applying best practices."
+
+        [[params.experience.list]]
+        title = "Intern Systems Administrator"
+        dates = "Apr 2019 - Jun 2019"
+        company = "CESGA"
+        details = "Cesga is the Supercomputing center of Galicia (Spain), which promotes the research in and use of high performance computing, advanced communications and development of information and communications technologies."
+        [[params.experience.list.items]]
+        details = " Monitoring services."
+        [[params.experience.list.items]]
+        details = "PHP and Python tools."
+        [[params.experience.list.items]]
+        details = "VxLAN and BGP model design for renew the data center nework."
+        [[params.experience.list.items]]
+        details = "Zabbix pluggin for PostgreSQL."
+
+
+    [params.projects]
+        enable = false
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/tecnobutrul"
+        #title = "tecnobutrul"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        #title = "username"

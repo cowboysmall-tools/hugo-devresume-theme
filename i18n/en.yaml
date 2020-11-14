@@ -14,3 +14,5 @@
   translation: Projects
 - id: skills
   translation: Skills
+- id: aptitudes
+  translation: Aptitudes
