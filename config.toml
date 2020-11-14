@@ -1,6 +1,6 @@
 # age settings
 
-baseURL = "https://tecnobutrul.github.io/"
+baseURL = "https://resume.ddelrio.ga"
 languageCode = "en"
 title = "Daniel Del Río Resume"
 theme = "hugo-devresume-theme"
@@ -32,8 +32,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "d.delrio.figueira@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "http://ddelrio.ga"
-        text = "ddelrio.ga"
+        url = "https://resume.ddelrio.ga"
+        text = "resume.ddelrio.ga"
 
     [params.skills]
         enable = true
