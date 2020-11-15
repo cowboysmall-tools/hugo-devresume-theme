@@ -14,6 +14,7 @@ jobs:
       theme: hugo-devresume-theme
       git-user: tecnobutrul
       git-mail: d.delrio.figueira@gmail.com
+      host: resume.ddelrio.ga
     runs-on: ubuntu-20.04
     steps:
       - name: Git checkout
@@ -40,3 +41,4 @@ jobs:
           user_name: ${{ env.git-user }}
           user_email: ${{ env.git-mail }}
           publish_branch: master
+          cname: ${{ env.host }}
