@@ -126,13 +126,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "Prefapp Cloud Consulting"
         details = "Prefapp develops, designs and mantains cloud infraestructure for other bussiness. They adapt cloud environments to clients needs, bulding ad-hoc tools to agile their development."
         [[params.experience.list.items]]
-        details = "Kubernetes cluster management and applications delivery applying GitOps"
+        details = "Kubernetes clusters management"
         [[params.experience.list.items]]
-        details = "Develop and deploy Infraestructure As Code with Terraform."
+        details = "Automate and safe infraestructure deploy with Terraform."
         [[params.experience.list.items]]
-        details = "Develop and mantain Helm chart for multiple applications."
+        details = "Faster and automate deployments using Github Actions and Azure Pipelines."
         [[params.experience.list.items]]
-        details = "Monitoring Kubernetes clusters with Prometheus and Grafana."
+        details = "Monitor Kubernetes clusters with Prometheus and Grafana."
         [[params.experience.list.items]]
         details = "Create ad-hoc Python applications to automate deploys."
         [[params.experience.list.items]]
@@ -148,7 +148,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "PHP and Python tools."
         [[params.experience.list.items]]
-        details = "VxLAN and BGP model design for renew the data center nework."
+        details = "Design VxLAN and BGP model for renew the data center nework."
         [[params.experience.list.items]]
         details = "Zabbix pluggin for PostgreSQL."
 
