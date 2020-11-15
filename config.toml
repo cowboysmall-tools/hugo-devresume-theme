@@ -25,6 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.contact]
         enable = true
         location = "Santiago de Compostela"
+        #printedVersion = "resume.pdf"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
