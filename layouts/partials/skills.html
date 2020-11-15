@@ -3,13 +3,19 @@
 
                                 <h3 class="text-uppercase resume-section-heading mb-4">{{ i18n "skills" }}</h3>
 
-                                {{ range .Site.Params.skills.list }}
-                                <div class="item">
-                                    <h4 class="item-title">{{ .title }}</h4>
+                                {{ range $lists := .Site.Params.skills.list }}
+                                <div class="item" >
                                     <ul class="list-unstyled resume-skills-list">
-                                        {{ range .items }}
-                                        <li class="mb-2">{{ with .details }}{{ . | markdownify }}{{ end }}</li>
-                                        {{ end }}
+                                      {{ range .items }}
+                                        <div style="width: 47%; display:inline-block; margin: 1% 1%" >
+                                      <li class="mb-0"><b>{{ with .details }}{{ . | markdownify }}{{ end }}</b></li>
+                                      <div class="progress mb-2">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="{{ with .percentage }}{{ . | markdownify }}{{ end }}"
+                                        aria-valuemin="0" aria-valuemax="100" style="width:{{ with .percentage }}{{ . | markdownify }}{{ end }}%">
+                                        </div>
+                                      </div>
+                                      </div>
+                                      {{ end }}
                                     </ul>
                                 </div><!--//item-->
                                 {{ end }}

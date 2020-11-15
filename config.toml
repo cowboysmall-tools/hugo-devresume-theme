@@ -40,22 +40,32 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
+
         [[params.skills.list.items]]
         details = "Kubernetes"
+        percentage = "85"
         [[params.skills.list.items]]
         details = "Python/Bash"
+        percentage = "90"
         [[params.skills.list.items]]
         details = "Grafana"
+        percentage = "75"
         [[params.skills.list.items]]
         details = "Prometheus"
+        percentage = "85"
+
         [[params.skills.list.items]]
         details = "GCP/Azure"
+        percentage = "85"
         [[params.skills.list.items]]
         details = "Helm"
+        percentage = "90"
         [[params.skills.list.items]]
         details = "Terraform"
+        percentage = "75"
         [[params.skills.list.items]]
         details = "Docker"
+        percentage = "90"
 
     [params.aptitudes]
         enable = true
