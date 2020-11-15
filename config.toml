@@ -163,8 +163,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.social.list]]
         icon = "fab fa-github-square"
         url = "//github.com/tecnobutrul"
-        #title = "tecnobutrul"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        #title = "username"
+        url = "//linkedin.com/in/daniel-del-rio-figueira"
