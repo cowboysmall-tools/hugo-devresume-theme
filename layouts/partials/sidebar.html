@@ -10,6 +10,10 @@
                             {{ partial "awards.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.associations.enable }}
+                            {{ partial "associations.html" . }}
+                            {{ end }}
+
                             {{ if .Site.Params.skills.enable }}
                             {{ partial "skills.html" . }}
                             {{ end }}
