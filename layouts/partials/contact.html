@@ -4,6 +4,5 @@
                                 {{ range .Site.Params.contact.list }}
                                 <li class="mb-2"><i class="{{ .icon }} fa-fw fa-lg mr-2"></i><a class="resume-link" href="{{ .url | safeURL }}">{{ .text }}</a></li>
                                 {{ end }}
-                                <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>{{ .Site.Params.contact.location }}</li>
                             </ul>
                         </div><!--//resume-contact-->
