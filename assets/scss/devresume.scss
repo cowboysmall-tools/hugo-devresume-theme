@@ -158,6 +158,7 @@ a.resume-link {
 	border-left: 1px solid rgba(0, 0, 0, 0.08);
 	.item {
 		font-size: 0.875rem;
+		text-align: left;
 	}
 	.item-title {
 		font-size: 1rem;
@@ -177,6 +178,8 @@ a.resume-link {
 
 .resume-lang-list, .resume-interests-list {
 	font-size: 0.875rem;
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 .resume-social-list {
@@ -186,6 +189,16 @@ a.resume-link {
 
 .fa-heart {
 	color: #fb866a;
+}
+
+.resume-skills-list {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.resume-list {
+	margin-left: 0px;
+	padding-left: 20px;
 }
 
 // Medium devices (tablets, less than 992px)
@@ -203,6 +216,7 @@ a.resume-link {
 	    border-left: 0;
     }
 }
+
 
 
 

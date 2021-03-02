@@ -10,7 +10,14 @@
                                         <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">{{ .meta }}</div>
                                     </div>
                                     <div class="item-content">
-                                        <p>{{ .tagline | markdownify }}</p>
+                                        {{ if .details }}
+                                        <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+                                        {{ end }}
+                                        <ul class="resume-list">
+                                            {{ range .items }}
+                                            <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
+                                            {{ end }}
+                                        </ul>
                                     </div>
                                 </div><!--//item-->
                                 {{ end }}

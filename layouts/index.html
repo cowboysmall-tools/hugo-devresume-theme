@@ -24,12 +24,13 @@
 
                         <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
                             <hr>
-                            {{ if .Site.Params.education.enable }}
-                            {{ partial "education.html" . }}
-                            {{ end }}
 
                             {{ if .Site.Params.summary.enable }}
                             {{ partial "summary.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.education.enable }}
+                            {{ partial "education.html" . }}
                             {{ end }}
 
                             {{ if .Site.Params.experience.enable }}
