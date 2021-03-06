@@ -1,3 +1,5 @@
+- id: personal_info
+  translation: personal info
 - id: associations
   translation: Associations
 - id: awards
