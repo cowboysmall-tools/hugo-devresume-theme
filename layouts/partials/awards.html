@@ -6,8 +6,8 @@
                                 <ul class="list-unstyled resume-awards-list">
                                     {{ range .Site.Params.awards.list }}
                                     <li class="mb-3">
-                                        <div class="font-weight-bold">{{ .name }}</div>
-                                        <div class="text-muted">{{ .body }}</div>
+                                        <div class="font-weight-bold">{{ .name | markdownify }}</div>
+                                        <div class="text-muted">{{ .body | markdownify }}</div>
                                         <div class="text-muted">{{ .date }}</div>
                                     </li>
                                     {{ end }}

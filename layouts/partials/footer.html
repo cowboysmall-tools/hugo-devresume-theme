@@ -8,7 +8,7 @@
                 If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com
             */-->
 
-            <small class="copyright text-muted">Designed with <i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+            <small class="copyright text-muted"><i class="fas fa-heart"></i> Thanks <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a>, <a class="theme-link" href="https://github.com/cowboysmall" target="_blank">CowboySmall</a> and <a class="theme-link" href="https://gohugo.io/" target="_blank">Hugo</a>. <i class="fas fa-heart"></i></small>
             <br>
-            <small class="copyright">{{ now.Year }} &copy; {{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ else }}Ported to Hugo by <a href="https://github.com/cowboysmall" target="_blank">CowboySmall</a>{{ end }}</small>
+	    <small class="copyright">{{ now.Year }} &copy; {{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ else }}{{ .Site.Params.profile.name }}{{ end }}</small>
         </footer>
