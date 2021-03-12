@@ -16,3 +16,5 @@
   translation: Skills
 - id: certifications
   translation: Certifications
+- id: trainings
+  translation: Trainings

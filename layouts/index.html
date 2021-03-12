@@ -48,6 +48,10 @@
                             {{ partial "information.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.trainings.enable }}
+                            {{ partial "trainings.html" . }}
+                            {{ end }}
+
                         </div><!--//resume-main-->
 
                         {{ partial "sidebar.html" . }}
