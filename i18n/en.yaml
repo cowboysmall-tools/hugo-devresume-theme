@@ -20,3 +20,5 @@
   translation: Trainings
 - id: membership
   translation: Membership
+- id: highlights
+  translation: Highlights
