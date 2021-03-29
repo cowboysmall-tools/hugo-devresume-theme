@@ -1,0 +1,17 @@
+
+                            <section class="member-section py-3">
+
+                                <h3 class="text-uppercase resume-section-heading mb-4">{{ i18n "membership" }}</h3>
+
+                                {{ range .Site.Params.member.list }}
+                                <div class="item">
+                                    <h4 class="item-title">{{ .title }}</h4>
+                                    <ul class="list-unstyled resume-member-list">
+                                        {{ range .items }}
+                                        <li class="mb-2">{{ with .details }}{{ . | markdownify }}{{ end }}</li>
+                                        {{ end }}
+                                    </ul>
+                                </div><!--//item-->
+                                {{ end }}
+
+                            </section><!--//member-section-->
