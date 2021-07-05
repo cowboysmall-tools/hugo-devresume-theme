@@ -40,6 +40,10 @@
                             {{ partial "projects.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.recommendations.enable }}
+                            {{ partial "recommendations.html" . }}
+                            {{ end }}
+
                             {{ if .Site.Params.information.enable }}
                             {{ partial "information.html" . }}
                             {{ end }}

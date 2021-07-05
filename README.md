@@ -129,3 +129,7 @@ You may change the "Ported for..." line by adding the following to the end of `c
     [params.footer]
         copyright = ""
 
+If you purchased a license, you may remove attribution link by adding the following to the end of `config.toml`
+
+    [params.footer]
+      purchased_license = true

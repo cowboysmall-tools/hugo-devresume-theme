@@ -7,8 +7,9 @@
                 Thank you for your support. :)
                 If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com
             */-->
-
+            {{ if .Site.Params.footer.purchased_license }}{{ else }}
             <small class="copyright text-muted">Designed with <i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
             <br>
+            {{ end }}
             <small class="copyright">{{ now.Year }} &copy; {{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ else }}Ported to Hugo by <a href="https://github.com/cowboysmall" target="_blank">CowboySmall</a>{{ end }}</small>
         </footer>
