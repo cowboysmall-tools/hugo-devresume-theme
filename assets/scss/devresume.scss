@@ -238,6 +238,24 @@ a.resume-link {
 
 
 
+// Styles to make it print friendly
+@media print {
+	.container {
+		padding: 0!important;
+		margin-top: 0!important;
+		margin-bottom: 0!important;
+	}
+	.resume-wrapper {
+		padding: 0 !important;
+		box-shadow: none !important;
+	}
+	blockquote {
+		font-size: 0.875rem;
+		border-top: none !important;
+		border-right: none !important;
+		border-bottom: none !important;
+	}
+}
 
 
 
