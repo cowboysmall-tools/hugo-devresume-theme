@@ -22,4 +22,8 @@
                             {{ partial "interests.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.books.enable }}
+                            {{ partial "books.html" . }}
+                            {{ end }}
+
                         </aside><!--//resume-aside-->

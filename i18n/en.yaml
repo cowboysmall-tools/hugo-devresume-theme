@@ -8,6 +8,8 @@
   translation: Information
 - id: interests
   translation: Interests
+- id: books
+  translation: Favorite Books
 - id: languages
   translation: Languages
 - id: projects
