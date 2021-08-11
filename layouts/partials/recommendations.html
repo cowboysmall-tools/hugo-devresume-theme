@@ -1,0 +1,25 @@
+
+                            <section class="project-section py-3">
+
+                                <h3 class="text-uppercase resume-section-heading mb-4">{{ i18n "recommendations" }}</h3>
+
+                                {{ range .Site.Params.recommendations.list }}
+                                <div class="item mb-3">
+                                    <div class="item-heading row align-items-center mb-2">
+                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ .title }}</h4>
+
+
+                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right"></div>
+                                    </div>
+                                    <div class="item-content">
+
+                                        <blockquote class="blockquote">
+                                            <p>{{ .tagline }}</p>
+                                            <footer class="blockquote-footer">{{ .author }}</footer>
+                                        </blockquote>
+
+                                    </div>
+                                </div><!--//item-->
+                                {{ end }}
+
+                            </section><!--//project-section-->

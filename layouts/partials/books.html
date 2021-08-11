@@ -1,0 +1,12 @@
+
+                            <section class="skills-section py-3">
+
+                                <h3 class="text-uppercase resume-section-heading mb-4">{{ i18n "books" }}</h3>
+
+                                <ul class="list-unstyled resume-interests-list mb-0">
+                                    {{ range .Site.Params.books.list }}
+                                    <li class="mb-2">{{ .name }}</li>
+                                    {{ end }}
+                                </ul>
+
+                            </section><!--//certificates-section-->

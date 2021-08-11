@@ -8,9 +8,13 @@
   translation: Information
 - id: interests
   translation: Interests
+- id: books
+  translation: Favorite Books
 - id: languages
   translation: Languages
 - id: projects
   translation: Projects
 - id: skills
   translation: Skills
+- id: recommendations
+  translation: Recommendations

@@ -1,5 +1,5 @@
 
-                        <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+                        <aside class="resume-aside col-12 col-md-4 col-xl-3 px-lg-4 pb-lg-4">
 
 
                             {{ if .Site.Params.education.enable }}
@@ -20,6 +20,10 @@
 
                             {{ if .Site.Params.interests.enable }}
                             {{ partial "interests.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.books.enable }}
+                            {{ partial "books.html" . }}
                             {{ end }}
 
                         </aside><!--//resume-aside-->
