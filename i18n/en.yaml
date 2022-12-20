@@ -14,3 +14,11 @@
   translation: Projects
 - id: skills
   translation: Skills
+- id: certifications
+  translation: Certifications
+- id: trainings
+  translation: Trainings
+- id: membership
+  translation: Membership
+- id: highlights
+  translation: Highlights
