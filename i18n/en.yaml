@@ -18,3 +18,11 @@
   translation: Skills
 - id: recommendations
   translation: Recommendations
+- id: certifications
+  translation: Certifications
+- id: trainings
+  translation: Trainings
+- id: membership
+  translation: Membership
+- id: highlights
+  translation: Highlights

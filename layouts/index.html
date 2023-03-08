@@ -43,9 +43,20 @@
                             {{ if .Site.Params.recommendations.enable }}
                             {{ partial "recommendations.html" . }}
                             {{ end }}
+                            {{ if .Site.Params.certifications.enable }}
+                            {{ partial "certifications.html" . }}
+                            {{ end }}
 
                             {{ if .Site.Params.information.enable }}
                             {{ partial "information.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.highlights.enable }}
+                            {{ partial "highlights.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.trainings.enable }}
+                            {{ partial "trainings.html" . }}
                             {{ end }}
 
                         </div><!--//resume-main-->

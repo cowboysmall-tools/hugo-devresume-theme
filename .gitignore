@@ -1,3 +1,15 @@
-public
+### Hugo ###
+# Generated files by hugo
+public/
+resources/_gen/
+hugo_stats.json
+themes/
 
-theme
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Temp Directory
+temp
