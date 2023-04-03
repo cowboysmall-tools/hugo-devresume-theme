@@ -1,0 +1,20 @@
+- id: personal_info
+  translation: informations personnelles
+- id: associations
+  translation: Associations
+- id: awards
+  translation: Réconpenses
+- id: education
+  translation: Éducation
+- id: experiences
+  translation: Expériences
+- id: information
+  translation: Information
+- id: interests
+  translation: Interêts
+- id: languages
+  translation: Langues
+- id: projects
+  translation: Projets
+- id: skills
+  translation: Compétences
