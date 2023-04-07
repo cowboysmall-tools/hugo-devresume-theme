@@ -6,7 +6,7 @@
                                 {{ range .Site.Params.information.list }}
                                 <div class="item mb-3">
                                     <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-12 col-lg-12 mb-2 mb-md-0">{{ .title }}</h4>
+                                        <h4 class="item-title col-12 col-md-12 col-lg-12 mb-2 mb-md-0">{{ .title | markdownify }}</h4>
                                     </div>
                                     <div class="item-content">
                                         <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
